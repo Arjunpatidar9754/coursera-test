@@ -364,9 +364,6 @@
 			.bg8-img{
 				font-size: 300%;
 			}
-			.bg9{
-				font-size: 250%;
-			}
 		}
 
 		@media(max-width: 800px){
@@ -428,9 +425,6 @@
 			}
 			.bg8-img{
 				font-size: 230%;
-			}
-			.bg9{
-				font-size: 200%;
 			}
 		}
 
@@ -494,9 +488,6 @@
 			.bg8-img{
 				font-size: 180%;
 			}
-			.bg9{
-				font-size: 150%;
-			}
 		}
 		@media(max-width: 450px){
 			.h1{
@@ -555,9 +546,6 @@
 			.bg8-img{
 				font-size: 150%;
 			}
-			.bg9{
-				font-size: 100%;
-			}
 		}	
 		@media(max-width: 380px){
 			.h1{
@@ -610,9 +598,6 @@
 			}
 			.bg8-img{
 				font-size: 120%;
-			}
-			.bg9{
-				font-size: 70%;
 			}
 		}	
 		@media(max-width: 300px){
@@ -668,9 +653,6 @@
 			}
 			.bg8-img{
 				font-size: 100%;
-			}
-			.bg9{
-				font-size: 50%;
 			}
 		}
 		@media(max-width: 260px){

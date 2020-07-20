@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		.container{
+			display: flex;
+			color: lightblue;
+			margin: 4%;
+		}
+		.section1, .section2{
+			text-align: center;
+			height: 30px;
+			margin-left: 2%;
+		}
+		.section1{
+			width: 66%;
+			background-color: red;
+			color: white;
+		}
+		.section2{
+			width: 32%;
+			background-color: green;
+			color: white;
+		}
+		@media(max-width: 500px){
+			.container{
+				display: block;
+				color: lightblue;
+				margin: 3%;
+			}
+			.section1, .section2{
+				text-align: center;
+				height: 30px;
+			}
+			.section1{
+				width: 84%;
+				background-color: red;
+				color: white;
+			}
+			.section2{
+				width: 84%;
+				background-color: green;
+				color: white;
+			}
+
+		}
+		@media(max-width: 250px){
+			.section1, .section2{
+				text-align: center;
+				height: 50px;
+			}
+		}
+		h1{
+			text-align: center;
+		}
+		form{
+			text-align: center;
+			margin: auto;
+			width: 80%;
+			margin-bottom: 10px;
+		}
+		input{
+			padding: 1%;
+			font-size: inherit;
+			width: 70%;
+		}
+		form div input{
+			width: 5%;
+			margin-bottom: 5%;
+		}
+		input[type="text-align"]{
+			display: block;
+			margin-bottom: 3%;
+			margin-left: 14%;
+			text-align: center;
+		}
+		input[type="email"]{
+			display: block;
+			margin-bottom: 3%;
+			margin-left: 14%;
+			text-align: center;
+		}
+		input[type="number"]{
+			display: block;
+			margin-bottom: 3%;
+			margin-left: 14%;
+			text-align: center;
+		}
+		input[type="password"]{
+			display: block;
+			margin-bottom: 3%;
+			margin-left: 14%;
+			text-align: center;
+		}
+		input[type="radio"] {
+			margin: 0% 2% 3% 2%;
+		}
+		input[type="radio"]:first-child {
+			margin-left: 0%;
+		}
+	</style>
+	<title>demo2</title>
+</head>
+<body>
+<div class="container">
+	<section class="section1">
+		hello arjun;;;;;
+	</section>
+	<section class="section2">
+		hello baadshah;;;;
+	</section>
+</div>
+<div>
+	<h1>registration form</h1>
+	<form>
+		<input type="text-align" name="name" placeholder="first-name">
+		<input type="text-align" name="name" placeholder="last-name">
+		<input type="email" name="email" placeholder="enter you email">
+		<input type="number" name="contact" placeholder="contact no.">
+		<input type="password" name="password" placeholder="password">
+		<input type="password" name="password" placeholder="confirm-password">
+		<div>
+			<input type="radio" name="gender" id="male"><label for="male">Male</label>
+			<input type="radio" name="gender" id="female"><label for="female">Female</label>
+		</div>
+		<input type="submit" name="Submit">
+	</form>
+</div>
+</body>
+</html>
